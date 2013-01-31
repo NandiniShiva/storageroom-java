@@ -95,18 +95,29 @@ Using the Library
 -------
 
 *Distribution*
+
 The dist directory contains a built version. Feel free to just pick that up (and all the dependencies in the lib directory) and go from there.
 
     dist/storageroom-java-1.0.jar
     lib/*.jar
 
 *Build the Library*
-I use Gradle to build the libray, but as you can see it is easy to adapt into whatever build infra you want. To use Gradle, do this once you have gradle installed:
+
+I use Gradle to build the library, but as you can see it is easy to adapt into whatever build infra you want. To use Gradle, do this once you have gradle installed:
 
     gradle build
 
 That's it. That will build the JAR, and run the Junit tests.
 
+Missing Features
+-------
+
+Sadly, I am not finished with the integration. And, given that my needs are already met, I might be slow in finishing these out. If you have a need let me know, otherwise I may not get to these any time soon.
+
+  - Anything to do with Web hooks
+  - PUT and POST for File or Image Fields (GET works)
+  - Anything with Association Fields
+  - Anything interesting with deleted entries
 
   [StorageRoom]: http://storageroomapp.com/
     
