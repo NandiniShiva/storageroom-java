@@ -94,6 +94,13 @@ This code shows how to connect to your Account via your Application, and then ma
 Using the Library
 -------
 
+*Distribution*
+The dist directory contains a built version. Feel free to just pick that up (and all the dependencies in the lib directory) and go from there.
+
+    dist/storageroom-java-1.0.jar
+    lib/*.jar
+
+*Build the Library*
 I use Gradle to build the libray, but as you can see it is easy to adapt into whatever build infra you want. To use Gradle, do this once you have gradle installed:
 
     gradle build
