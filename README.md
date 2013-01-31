@@ -11,16 +11,17 @@ Some features that you'll like
 
 Additionally, the implementation should be easy to use:
 
+  - Given the webby nature of SR, I don't expect you are a Java expert. I tried to keep the Java syntax simple
   - Unit and integration tests are included
   - Reasonable javadoc is included
   - Sample code can be found in the unit tests and on this page
-  - I tried to isolate dependencies as best I could; really just a dependency on HttpClient is needed
+  - I tried to eliminate dependencies as best I could; really just a dependency on HttpClient is needed
   - You should be able to drop this project into your application quickly
 
 Unfortunately, not all is rainbows and unicorns:
 
   - I tried not to use Java Generics, as it makes an API less approachable, but I found they were too useful to pass up
-  - There are some missing features here and there
+  - There are some missing features here and there (see bottom of this page)
 
 So, are you ready? It is easy to get started. The code below should hopefully convince you that the API is easy to work with.
 
@@ -114,6 +115,8 @@ Missing Features
 
 Sadly, I am not finished with the integration. And, given that my needs are already met, I might be slow in finishing these out. If you have a need let me know, otherwise I may not get to these any time soon.
 
+  - Example for how to build with Maven (pom.xml) to complement the Gradle build
+  - Sufficient logging; in the short term you may have to step debug if you hit problems
   - Anything to do with Web hooks
   - PUT and POST for File or Image Fields (GET works)
   - Anything with Association Fields
