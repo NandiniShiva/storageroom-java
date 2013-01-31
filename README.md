@@ -90,6 +90,16 @@ This code shows how to connect to your Account via your Application, and then ma
     // DELETE
     theEntry = results.asList().get(0);
     success  = theEntry.delete();
+    
+Using the Library
+-------
+
+I use Gradle to build the libray, but as you can see it is easy to adapt into whatever build infra you want. To use Gradle, do this once you have gradle installed:
+
+    gradle build
+
+That's it. That will build the JAR, and run the Junit tests.
+
 
   [StorageRoom]: http://storageroomapp.com/
     
