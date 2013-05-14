@@ -23,7 +23,7 @@ Unfortunately, not all is rainbows and unicorns:
   - I tried not to use Java Generics, as it makes an API less approachable, but I found they were too useful to pass up
   - There are some missing features here and there (see bottom of this page)
 
-So, are you ready? It is easy to get started. The code below should hopefully convince you that the API is easy to work with.
+It is easy to get started. The code below should hopefully convince you that the API is easy to work with.
 
 *Peter Laird*
 January 2013
