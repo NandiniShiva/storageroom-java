@@ -41,7 +41,7 @@ This code shows how to connect to your Account via your Application, and then na
     CollectionEntries entries = col.getEntries();
     PageOfEntries results = entries.queryAll();
     
-    // just pick off the first entry in the page for this sample
+    // just pick off the first entry in the page for this example
     Entry entry = results.asList().get(0);
     for (GenericField<?> field : entry.values()) {
         String id = field.getIdentifier();
